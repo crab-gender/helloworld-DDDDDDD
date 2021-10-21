@@ -81,7 +81,9 @@ nav li {
   color: white;
   text-decoration: none;
   padding: 20px;
+  font-size: 2em;
 }
+
 nav a {
   text-decoration: none;
   padding: 20px;
@@ -115,7 +117,9 @@ body {
   display: none;
 }
 
-
+nav li {
+  font-size: 1em;
+}
 
 #image2 {
   display: none;
