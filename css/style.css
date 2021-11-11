@@ -4,7 +4,6 @@ body {
 
 }
 
-
 /*Banner*/
 
 .bannern {
@@ -55,8 +54,6 @@ section {
 
 }
 
-
-
 li, p {
   color: #1C1717;
   font-family: Arial, Helvetica, sans-serif;
@@ -73,8 +70,13 @@ nav ul{
   margin-top: 0;
   margin-bottom: 0;
   background-color: rgb(9, 162, 223);
-  text-align: center;
+  text-align: center; 
 }
+.script {
+max-width: 100%;
+margin: auto;
+}
+
 
 nav li {
   display: inline-block;
@@ -103,14 +105,14 @@ nav a:hover {
 }
 
 
-
-
 @media only screen and (max-width: 600px) {
 
 body {
   background-color: #ff8c00;
 }
-
+#script {
+  display: none; 
+}
 
 
 #image1 {
